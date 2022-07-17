@@ -1,0 +1,108 @@
+@charset "utf-8";
+@media all and (max-width:860px)
+{
+    *{
+        transition: .1s linear;
+     }
+    body{
+        background-color: transparent;
+    }
+    header{
+        padding-bottom: 1px;
+        padding-top: 10px;
+    }
+    /* estilizando a div principal que separa o conteudo do corpo da pagina*/
+    .div-principal
+    {
+        width: 100%;
+        margin: 0 auto;   
+        
+    }
+    .titulo-principal
+    {
+        border: 1px solid transparent;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /**/
+    .navegacao
+    {
+        float: none;
+        /*background-color: rgb(41, 41, 43);*/
+        padding: 5px;
+        margin-top: -10.5px;
+        background-color: rgb(0, 155, 202);
+    }
+    .navegacao ul
+    { 
+        margin: 0;
+        padding: 0; 
+        text-align: center;
+    }
+    .navegacao ul li a
+    { 
+        color: wheat;
+        font-size: 14px;
+    }
+    .navegacao ul li a:hover
+    { 
+        color: white;
+    }
+    /*
+    *
+    */
+    .imagem-fundo{
+        width: 100%; 
+        height: 340px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    /**/
+    .marcar-consulta{ 
+        width: 80%;
+        color: white; 
+        padding: 15px; 
+        position: absolute  ; 
+        margin-left: 2%;
+        
+
+    }
+    .login{
+        width: 100%;
+        margin: 50px auto;
+        padding: 15px 0;
+        border: 2px solid transparent;
+        
+        /*color: white;*/
+    }
+
+    #botaoiniciar{
+        background-color: rgb(0, 155, 202);
+    }
+
+    .marcar-consulta p{ 
+        width: 100%; 
+
+    }
+    .link-consulta{
+        background-color: rgb(0, 155, 202);
+        color: white;
+        text-decoration: none;
+        text-align: left; 
+        padding: 15px;
+        box-shadow: inset  1px 2px 1px  white;  
+        bottom: 20%; 
+        font-size: 14px;
+
+    }
+
+    /**/
+
+    .rodape .forme-contactos,.inf{
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+        display:inline-block ;
+   } 
+}
